@@ -1,0 +1,109 @@
+{
+    "name": "GameControls",
+    "maps": [
+        {
+            "name": "Game Control",
+            "id": "b2b8dad4-c8a4-4a01-9ed1-ac81703b146a",
+            "actions": [
+                {
+                    "name": "CursorLocation",
+                    "type": "PassThrough",
+                    "id": "0e893e87-f6fd-4dc2-a0af-b04d5c42325f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Free Cursor",
+                    "type": "Button",
+                    "id": "87c5f8e5-a880-4049-b631-06fa541e5ac3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Button",
+                    "id": "695a3623-e602-491c-a392-11bae310bac1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "SpawnShip",
+                    "type": "Button",
+                    "id": "4e824d57-feca-42e0-bebb-776fc280e5d8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "SpawnStation",
+                    "type": "Button",
+                    "id": "9f38fed2-eb56-4cae-a4f2-38a6a97f7868",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a95759d2-cf12-44ef-adfc-351060f9242d",
+                    "path": "<Keyboard>/leftAlt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Free Cursor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c2216bcc-0ce2-4860-b1a7-4bbf28ab57d1",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Inventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "11961cda-c41d-4eb3-91b0-5fa8b24df6c6",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnShip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fe4f95da-7112-4888-a3c6-754a781de8e8",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnStation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0dcf563f-b082-4a14-9a36-4c07742fec3b",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CursorLocation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
